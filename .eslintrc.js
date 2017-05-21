@@ -26,7 +26,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'semi': ["error", "never"],
     // eslint eol-last: ["error", "always"]
-    "indent": ["error", 2],
+    "indent": 0,
     // "no-unused-vars": ["error", { "vars": "local", "args": "none", "ignoreRestSiblings": false, "varsIgnorePattern": "[iI]gnored" }],
     'no-unused-vars': 0
   }
